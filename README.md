@@ -20,8 +20,7 @@ O padrão Factory Method foi aplicado na criação de diferentes tipos de baralh
 Esse padrão foi escolhido para garantir que a criação de novos tipos de baralho seja desacoplada do código que os utiliza. Caso precisemos adicionar novos tipos de baralhos no futuro (por exemplo, um baralho para outro jogo de cartas), podemos simplesmente criar novas subclasses de BaralhoCreator e de BaralhoInterface sem modificar o código existente.
 
 ## Diagrama de Classe do Factory Method aplicado ao projeto
-
-![Diagrama de Classe](./images/DC 02.png)
+![image](https://github.com/user-attachments/assets/a409eb8c-f452-4ac9-8e5b-253774eb0016)
 
 ## 2. Interface Segregation Principle (ISP)
 Além do Factory Method, o projeto também segue o princípio de segregação de interfaces, um dos princípios SOLID. A interface BaralhoInterface define apenas os métodos que são relevantes para os baralhos, como shuffle(), dealCard() e size(). Isso garante que diferentes tipos de baralho implementem apenas os métodos necessários para o seu funcionamento.
