@@ -21,7 +21,7 @@ Esse padrão foi escolhido para garantir que a criação de novos tipos de baral
 
 ## Diagrama de Classe do Factory Method aplicado ao projeto
 
-![Diagrama de Classe](./Baralhos/DC 02.png)
+![Diagrama de Classe](DC 02.png)
 
 ## 2. Interface Segregation Principle (ISP)
 Além do Factory Method, o projeto também segue o princípio de segregação de interfaces, um dos princípios SOLID. A interface BaralhoInterface define apenas os métodos que são relevantes para os baralhos, como shuffle(), dealCard() e size(). Isso garante que diferentes tipos de baralho implementem apenas os métodos necessários para o seu funcionamento.
