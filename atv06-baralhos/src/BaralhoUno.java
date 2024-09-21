@@ -16,6 +16,7 @@ public class BaralhoUno implements BaralhoInterface {
                 deck.add(new Carta(tipo, cor, 0));
             }
         }
+        
         for (int i = 0; i < 4; i++) {
             deck.add(new Carta(CORINGAS[0], "Coringa", 0));
             deck.add(new Carta(CORINGAS[1], "Coringa", 0));
